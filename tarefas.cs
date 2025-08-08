@@ -1,14 +1,14 @@
 ﻿namespace ListaExercicios_Collections
 {
-    public class tarefas  // Classe Aluno
+    public class tarefas
     {
-        public tarefas(int horario, string compromissos) // Metodo construtor com parametros
+        public tarefas(int horario, string compromissos)
         {
             this.Horario = horario;
             this.Compromissos = compromissos;
         }
 
-        public int Horario { get; set; } // Atributos
+        public int Horario { get; set; }
         public string? Compromissos { get; set; }
     }
 }
